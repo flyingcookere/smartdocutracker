@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        @apply sm:text-sm md:text-base text-sm;
+    }
+
+    h1 {
+        @apply sm:text-2xl md:text-2xl text-2xl;
+    }
+
+    h2 {
+        @apply sm:text-xl md:text-xl text-xl;
+    }
+
+    h3 {
+        @apply sm:text-lg md:text-lg text-lg;
+    }
+
+    p {
+        @apply sm:text-sm md:text-sm text-sm;
+    }
+
+    small {
+        @apply sm:text-xs md:text-sm text-xs;
+    }
+}
+
+/* Hide scrollbars globally */
+* {
+  scrollbar-width: none;           /* Firefox */
+  -ms-overflow-style: none;        /* Internet Explorer 10+ */
+}
+
+*::-webkit-scrollbar {
+  display: none;                   /* Chrome, Safari, Edge */
+}
+
+
+

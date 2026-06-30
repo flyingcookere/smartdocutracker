@@ -1,0 +1,129 @@
+/*myDocs.blade.php*/
+#documentTable{
+    background-color:  #f8f9fa;
+}
+
+#deleteConfirmModal{
+    border-radius: 5px;
+    padding: 20px;
+    display:none; 
+    position:fixed; top:0; 
+    left:0;
+    width:100%; 
+    height:100%; 
+    background:rgba(0,0,0,0.5);
+}
+
+#deleteConfirmation{
+    background: #f8f9fa;
+    margin:100px auto;
+    padding:20px;
+    width:90%;
+    max-width: 400px;
+    border-radius:8px;
+}
+
+
+/*view.blade.php*/
+#update-panel{
+    display:flex;
+    gap: 5%;
+    justify-self: center;
+}
+
+#statusConfirmModal{
+    border-radius: 5px;
+    padding: 20px;
+    display:none; 
+    position:fixed; top:0; 
+    left:0;
+    width:100%; 
+    height:100%; 
+    background:rgba(0,0,0,0.5);    
+}
+
+#statusConfirmation{
+    background: #f8f9fa;
+    margin:100px auto;
+    padding:20px;
+    width:90%;
+    max-width: 400px;
+    border-radius:8px;
+}
+
+#statusError{
+    color: red;
+}
+
+#update-panel{
+    display:flex;
+    gap: 5%;
+    justify-self: center;
+}
+
+#statusConfirmModal{
+    border-radius: 5px;
+    padding: 20px;
+    display:none; 
+    position:fixed; top:0; 
+    left:0;
+    width:100%; 
+    height:100%; 
+    background:rgba(0,0,0,0.5);    
+}
+
+#statusConfirmation{
+    background: #f8f9fa;
+    margin:100px auto;
+    padding:20px;
+    width:90%;
+    max-width: 400px;
+    border-radius:8px;
+}
+
+#statusError{
+    color: red;
+}
+
+/*create.blade.php*/
+#container-qrGen {
+    padding: 0;
+    margin: 20px auto;
+    display:grid;
+    justify-self: center;
+    transform: scale(0.9);
+}
+#qrForm {
+    border-radius: 0;
+    margin-bottom: 0;
+}
+#confirmModal {
+    border-radius: 5px;
+    padding: 20px;
+    display:none; 
+    position:fixed; top:0; 
+    left:0;
+    width:100%; 
+    height:100%; 
+    background:rgba(0,0,0,0.5);    
+}
+
+#confirmation{
+    background: #f8f9fa;
+    margin:100px auto;
+    padding:20px;
+    width:90%;
+    max-width: 400px;
+    justify-items: center;
+}
+
+@media (prefers-color-scheme: dark){
+    #confirmation{
+        background: rgb(20, 20, 20);
+        color: white;
+    }
+}
+
+#documentTitleError, #departmentError, #communicationError{
+    color: red;
+}
